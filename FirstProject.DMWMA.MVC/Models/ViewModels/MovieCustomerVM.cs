@@ -8,6 +8,7 @@ namespace FirstProject.DMWMA.MVC.Models.ViewModels
 		}
 		public Movie movie { get; set; }
 		public List<Customer> customers{ get; set; }
+		//test Git
 	}
 }
 
