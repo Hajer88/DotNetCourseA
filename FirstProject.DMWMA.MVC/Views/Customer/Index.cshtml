@@ -1,0 +1,9 @@
+﻿@model FirstProject.DMWMA.MVC.Models.ViewModels.MovieCustomerVM
+
+<h2> Liste de clients et Films</h2>
+<h2>@Model.movie.name</h2>
+
+@foreach(var item in Model.customers)
+{
+        <h2>@Html.ActionLink(@item.Name,"Details","Customer", new {id=item.Id})</h2>
+}
